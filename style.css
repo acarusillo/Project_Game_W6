@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: Jazz LET, fantasy;
 }
 ::selection{
   color: #fff;
@@ -12,7 +12,7 @@
 body{
   background:blue;
   background-image: url('https://i.pinimg.com/originals/5a/bf/82/5abf82bfded652ae54159e7677b79057.gif');
-
+  
 }
 .select-box, .play-board, .result-box{
   position: absolute;
@@ -53,7 +53,7 @@ body{
   font-weight: 500;
   padding: 10px 0;
   border: none;
-  background: #56baed;
+  background: black;
   border-radius: 5px;
   color: #fff;
   outline: none;
@@ -77,7 +77,7 @@ body{
   font-weight: 500;
 }
 .select-box .credit a{
-  color: #56baed;
+  color: turquoise;
   text-decoration: none;
 }
 .select-box .credit a:hover{
