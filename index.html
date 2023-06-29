@@ -1,70 +1,61 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Project_Game_TicTacToe</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-            <div id="main">
-                <h1>Play TIC TAC TOE</h1>
-                <p id="ins">
-                      Game starts by just Tap on
-                    box<br><br>First Player starts as
-                    <b>Player X </b>And Second Player as 
-                    <b>Player 0</b>
-                </p>
-                <br><br>
-                <div class = "ui">
-                    <div class="row">
-                        <input type="text" id= "b1" 
-                               class="cell" onclick="myfunc_3(); myfunc();" 
-                               readonly>
-                        <input type="text" id= "b2" 
-                               class="cell" onclick="myfunc_4(); myfunc();" 
-                               readonly>
-                        <input type="text" id= "b3" class="cell" 
-                               onclick="myfunc_5(); myfunc();" 
-                               readonly>
-                    </div>
-                    <div class="row">
-                        <input type="text" id= "b4" 
-                               class="cell" onclick="myfunc_6(); myfunc();" 
-                               readonly>
-                        <input type="text" id= "b5" 
-                               class="cell" onclick="myfunc_7(); myfunc();" 
-                               readonly>
-                        <input type="text" id= "b6" 
-                               class="cell" onclick="myfunc_8(); myfunc();" 
-                               readonly>
-                    </div>
-                    <div class="row">
-                        <input type="text" id= "b7" 
-                               class="cell" onclick="myfunc_9(); myfunc();" 
-                               readonly>
-                        <input type="text" id= "b8" 
-                               class="cell" onclick="myfunc_10();myfunc();" 
-                               readonly>
-                        <input type="text" id= "b9" 
-                               class="cell" onclick="myfunc_11();myfunc();" 
-                               readonly>
-                    </div>
-                </div>
-                <br><br><br>
-                
-                <button id="but" onclick="myfunc_2()">
-                    RESET
-                </button>
-                <br><br>
-                <p id="print"></p>
-            </div>
-        </body>
-          
-        </html>
+<!-- Created By Aki, credit goes to CodingNepal - www.youtube.com/codingnepal || www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe Game | Aki Carusillo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <!-- select box -->
+  <div class="select-box">
+    <header>Let's Play Tic Tac Toe!</header>
+    <div class="content">
+      <div class="title">Choose a player</div>
+      <div class="options">
+        <button class="playerX">Player X</button>
+        <button class="playerO">Player O</button>
+      </div>
+      <div class="credit">Created By <a href="https://github.com/acarusillo/Project_Game_W6" target="_blank">Aki Carusillo</a></div>
+    </div>
+  </div> 
+
+  <!-- playboard section -->
+  <div class="play-board">
+    <div class="details">
+      <div class="players">
+        <span class="Oturn">O's Turn</span>
+        <span class="Xturn">X's Turn</span>
+        <div class="slider"></div>
+      </div>
+    </div>
+    <div class="play-area">
+      <section>
+        <span class="box1"></span>
+        <span class="box2"></span>
+        <span class="box3"></span>
+      </section>
+      <section>
+        <span class="box4"></span>
+        <span class="box5"></span>
+        <span class="box6"></span>
+      </section>
+      <section>
+        <span class="box7"></span>
+        <span class="box8"></span>
+        <span class="box9"></span>
+      </section>
+    </div>
+  </div>
+
+  <!-- result box -->
+  <div class="result-box">
+    <div class="won-text"></div>
+    <div class="btn"><button>Replay</button></div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
