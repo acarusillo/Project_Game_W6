@@ -14,12 +14,14 @@ DOM manipulation
 # How It Works
 
 1) Tic-Tac-Toe is a two-player game in which the players fill up 9 empty rectangles in a table with either an X or an O when it is their turn.
-2) 2)Once someone succeeds to line up their sign vertically or horizontally without an interruption, that player wins.
+2) Once someone succeeds to line up their sign vertically or horizontally without an interruption, that player wins.
 3) Once the user selects one of the players, the selection box will disappear and the playboard is visible.
 4) There are the player names at the top in the playboard section and it indicates or shows whose turn is now.
 5) At the center of the webpage, there is a tic tac toe play area with nine square boxes. Once you click on the particular box then there is visible a sign or icon which you have chosen on the selection box.
+   
 **If no one wins the match and all 9-box selected then again the playboard section is hidden and the result box appears with “the game ended in a tie” text and a replay button.
-7) Once you click on the replay button, the current page reloads and you can play again.
+
+6) Once you click on the replay button, the current page reloads and you can play again.
    
 # Project Requirements
 
