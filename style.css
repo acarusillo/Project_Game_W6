@@ -51,10 +51,10 @@ body{
   width: 100%;
   font-size: 40px;
   font-weight: 500;
-  padding: 10px 0;
+  padding: 20px 0;
   border: none;
   background: red;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #fff;
   outline: none;
   cursor: pointer;
@@ -73,7 +73,7 @@ body{
 .select-box .credit{
   text-align: center;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 500;
 }
 .select-box .credit a{
