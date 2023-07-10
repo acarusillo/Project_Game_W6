@@ -49,7 +49,7 @@ DOM manipulation
 
 # Presentation Day: 7/10/2023
 
-# Credits & References
+# References
 
 https://www.codingnepalweb.com/tic-tac-toe-game-javascript/
 
