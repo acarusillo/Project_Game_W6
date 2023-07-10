@@ -192,7 +192,7 @@ body{
   display: flex;
   justify-content: center;
 }
-.result-box .won-text p{
+.result-box .you-won-text p{
   font-weight: 600;
   margin: 0 5px;
 }
